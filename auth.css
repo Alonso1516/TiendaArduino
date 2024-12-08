@@ -1,0 +1,82 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00979D; /* Color de Arduino */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 400px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Encabezado */
+.form-container h1 {
+    text-align: center;
+    color: #00979D;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Botones */
+button {
+    padding: 10px;
+    background: #00979D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #00716a;
+}
+
+/* Enlaces */
+a {
+    color: #00979D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes de error o éxito */
+.message {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #00979D;
+}
